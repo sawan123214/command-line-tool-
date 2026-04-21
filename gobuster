@@ -14,3 +14,6 @@ Gobuster - Gobuster is a high-performance directory/file, DNS and virtual host b
    Cloud Storage Enumeration: Discover open Amazon S3 and Google Cloud Storage buckets
    TFTP File Discovery: Find files on TFTP servers
    Custom Fuzzing: Flexible fuzzing with customizable parameters
+
+Example - gobuster -u http://fakebank.thm -w wordlist.txt dir
+         In the command above, -u is used to state the website we're scanning, -w takes a list of words to iterate through to find hidden pages.
